@@ -14,8 +14,7 @@ const __dirname = path.resolve();
 
 // Middleware
 app.use(cors({
-    origin: ["http://localhost:3001", "https://childrenofdestinyfoundation.onrender.com/"],
-    methods: ['GET', 'PUT', 'POST', 'DELETE'],
+    origin: "https://childrenofdestinyfoundation.onrender.com",
     credentials: true
 }));
 app.use(express.json());

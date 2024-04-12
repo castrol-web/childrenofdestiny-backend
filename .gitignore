@@ -8,7 +8,7 @@
 /coverage
 # Ignore .env folder
 .env
-
+/build
 # misc
 .DS_Store
 .env.local
