@@ -4,13 +4,13 @@ import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import userRoutes from "./routes/Users.js";
 import dotenv from "dotenv";
-import path from "path";
+// import path from "path";
 
 dotenv.config();
 const app = express();
 
-// Manually define __dirname
-const __dirname = path.resolve();
+// // Manually define __dirname
+// const __dirname = path.resolve();
 
 // Middleware
 app.use(cors({
@@ -21,8 +21,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// Serve static files from the 'frontend/build' directory
-app.use(express.static(path.join(__dirname, 'build')));
+// // Serve static files from the 'frontend/build' directory
+// app.use(express.static(path.join(__dirname, 'build')));
 
 // Database connection
 const connection_url = process.env.MONGOOSE_CONNECTION;
@@ -37,10 +37,10 @@ try {
 // Routes
 app.use("/api/users", userRoutes);
 
-// Serve index.html for all other routes
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname,'build', 'index.html'));
-});
+// // Serve index.html for all other routes
+// app.get('*', (req, res) => {
+//     res.sendFile(path.join(__dirname,'build', 'index.html'));
+// });
 
 // Error handling middleware
 app.use((err, req, res, next) => {
