@@ -15,8 +15,17 @@ const app = express();
 // Middleware
 app.use(cors({
     origin: "https://childrenofdestinyfoundation.onrender.com",
+    
     credentials: true
 }));
+// Middleware to allow CORS
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', 'https://childrenofdestinyfoundation.onrender.com');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    next();
+  });
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
