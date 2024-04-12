@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7452b28f.css",
+    "main.js": "/static/js/main.1fb3c33d.js",
+    "static/media/farming.jpeg": "/static/media/farming.a9a47dd92f3d7c099aa7.jpeg",
+    "static/media/chicken2.jpeg": "/static/media/chicken2.2a9dc14301a4461dce63.jpeg",
+    "static/media/chicken4.jpeg": "/static/media/chicken4.d219ab64f798b9ee7d87.jpeg",
+    "static/media/layers.jpeg": "/static/media/layers.4fd43c077b7050c3b415.jpeg",
+    "static/media/chicken3.jpeg": "/static/media/chicken3.f369ba3e125df67e46f3.jpeg",
+    "static/media/chicken1.jpeg": "/static/media/chicken1.db43991bdfa995037c61.jpeg",
+    "static/media/broilers1.jpeg": "/static/media/broilers1.ded356b81294425fba95.jpeg",
+    "static/media/rabbits.jpeg": "/static/media/rabbits.6e7d7361887bc14fc414.jpeg",
+    "static/media/broilers.jpeg": "/static/media/broilers.0506e33c5a91ae9e3f12.jpeg",
+    "static/media/broilers2.jpeg": "/static/media/broilers2.5f11c5725f77a8bb4956.jpeg",
+    "static/media/pigs.jpeg": "/static/media/pigs.dc0344a4fa874762b2a5.jpeg",
+    "static/media/house.jpeg": "/static/media/house.a74b1afcb91bd0350544.jpeg",
+    "static/media/gate.jpeg": "/static/media/gate.f0680908be49ce2376b9.jpeg",
+    "static/media/kitchen.jpeg": "/static/media/kitchen.99e4184e7568e1e7ab4c.jpeg",
+    "static/media/chicken.jpeg": "/static/media/chicken.9d9069c473129ecde276.jpeg",
+    "static/media/family.jpeg": "/static/media/family.7e0e809b4a8eb9c3463b.jpeg",
+    "static/media/destinylogo.PNG": "/static/media/destinylogo.0db567d50379de15d9bd.PNG",
+    "static/media/group.jpeg": "/static/media/group.ed48ca7dab3884a26463.jpeg",
+    "static/media/mum.jpg": "/static/media/mum.45562e1c78d86f21d503.jpg",
+    "index.html": "/index.html",
+    "main.7452b28f.css.map": "/static/css/main.7452b28f.css.map",
+    "main.1fb3c33d.js.map": "/static/js/main.1fb3c33d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7452b28f.css",
+    "static/js/main.1fb3c33d.js"
+  ]
+}

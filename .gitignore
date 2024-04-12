@@ -6,10 +6,6 @@
 
 # testing
 /coverage
-
-# production
-/build
-
 # Ignore .env folder
 .env
 
