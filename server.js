@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // Serve static files from the 'frontend/build' directory
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join('build')));
 
 // Database connection
 const connection_url = process.env.MONGOOSE_CONNECTION;
@@ -39,7 +39,7 @@ app.use("/api/users", userRoutes);
 
 // Serve index.html for all other routes
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname,'build', 'index.html'));
+    res.sendFile(path.join('build/index.html',{root:__dirname}));
 });
 
 // Error handling middleware
